@@ -1,0 +1,5 @@
+Forestry / Silviculture project
+
+1. Objectives
+2. Data Collection (pictures from Shiny)
+3. Preprocessing / Noise Reduction (can be done with library)
