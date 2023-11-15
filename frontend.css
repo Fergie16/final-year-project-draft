@@ -1,0 +1,12 @@
+/* styles.css */
+
+body {
+    /* Set the background image with a linear gradient */
+    background-image: linear-gradient(to right top, #0f5123, #005441, #00555d, #005371, #004f79, #075580, #0e5c88, #14628f, #107699, #268aa1, #449da6, #63afaa);
+    
+    /* Optionally, you can set background properties to control the appearance */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* or scroll, depending on your preference */
+    /* Add more styles as needed */
+}
