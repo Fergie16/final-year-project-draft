@@ -15,28 +15,40 @@
         }
 
         .container {
-            width: 200px;
-            height: 100px;
+            width: 250px;
+            height: 250px;
             background-color: #3498db;
-            border-radius: 10px;
+            border-radius: 15px;
             text-align: center;
             padding: 20px;
             color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             margin: 10px;
         }
+
+        .container img{
+            width: 80%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
     </style>
     <title>Mound Detection Application</title>
 </head>
 <body>
 
-<div class="container">
-    <p>Mound Detection</p>
+<div class="container-wrapper"></div>
+    <div class="container">
+        <p>Mound Detection</p>
+        <img src="/images/detection.png">
+    </div>
+
+    <div class="container">
+        <p>Image Stitching</p>
+        <img src="/images/stitching.png">
+    </div>
 </div>
 
-<div class="container">
-    <p>Image Stitching</p>
-</div>
+<button class="get-started-button">Get Started</button>
 
 </body>
 </html>

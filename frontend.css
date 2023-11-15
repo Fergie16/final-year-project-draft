@@ -3,10 +3,56 @@
 body {
     /* Set the background image with a linear gradient */
     background-image: linear-gradient(to right top, #0f5123, #005441, #00555d, #005371, #004f79, #075580, #0e5c88, #14628f, #107699, #268aa1, #449da6, #63afaa);
-    
+    display: flex;
+    flex-direction: row;
     /* Optionally, you can set background properties to control the appearance */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* or scroll, depending on your preference */
-    /* Add more styles as needed */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.container {
+    width: 200px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.container:hover {
+    transform: scale(1.1); /* Enlarge the box on hover */
+}
+
+.get-started-button{
+    background-color: #0B2B65;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 150px;
+    right: 620px;
+    left: 620px;
+    transition: background-color 0.3 ease-in-out;
+}
+
+.get-started-button:hover{
+    background-color: #45a049
 }
